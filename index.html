@@ -1,4 +1,4 @@
-]<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -38,49 +38,117 @@
   <section id="two">
     <h2>Form</h2>
     <form>
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name" required>
+      <fieldset>
+        <legend>Your details</legend>
 
-      <label for="pw">Password</label>
-      <input type="password" id="pw" name="password">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
 
-      <label for="em">Email</label>
-      <input type="email" id="em" name="email">
+        <br><br>
 
-      <input type="checkbox" id="agree" name="agree" value="yes">
-      <label for="agree">I agree</label>
+        <label for="pw">Password</label><br>
+        <input type="password" id="pw" name="password">
 
-      <br>
-      Campus
-      <input type="radio" id="kharian" name="campus" value="kharian">
-      <label for="kharian">Kharian</label>
-      <input type="radio" id="islamabad" name="campus" value="islamabad">
-      <label for="islamabad">Islamabad</label>
+        <br><br>
 
-      <br>
-      <label for="bio">Bio</label>
-      <textarea id="bio" name="bio" rows="3"></textarea>
+        <label for="em">Email</label><br>
+        <input type="email" id="em" name="email">
 
-      <!-- Task 5 Additions -->
-      <br>
-      <label for="day">Day</label>
-      <select id="day" name="day">
-        <option value="mon">Monday</option>
-        <option value="tue">Tuesday</option>
-        <option value="wed">Wednesday</option>
-      </select>
+        <br><br>
 
-      <br>
-      <label for="city">City</label>
-      <input type="text" id="city" name="city" list="cities">
-      <datalist id="cities">
-        <option value="Kharian"></option>
-        <option value="Gujrat"></option>
-      </datalist>
+        <input type="checkbox" id="agree" name="agree" value="yes">
+        <label for="agree">I agree</label>
+
+        <br><br>
+
+        Campus<br>
+        <input type="radio" id="kharian" name="campus" value="kharian">
+        <label for="kharian">Kharian</label>
+        <input type="radio" id="islamabad" name="campus" value="islamabad">
+        <label for="islamabad">Islamabad</label>
+
+        <br><br>
+
+        <label for="bio">Bio</label><br>
+        <textarea id="bio" name="bio" rows="3"></textarea>
+
+        <br><br>
+
+        <label for="day">Day</label><br>
+        <select id="day" name="day">
+          <option value="mon">Monday</option>
+          <option value="tue">Tuesday</option>
+          <option value="wed">Wednesday</option>
+        </select>
+
+        <br><br>
+
+        <label for="city">City</label><br>
+        <input type="text" id="city" name="city" list="cities">
+        <datalist id="cities">
+          <option value="Kharian"></option>
+          <option value="Gujrat"></option>
+        </datalist>
+
+        <br><br>
+
+        <label for="dob">Date</label><br>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <label for="n">Number</label><br>
+        <input type="number" id="n" name="seats" min="1" max="40">
+
+        <br><br>
+
+        <label for="col">Colour</label><br>
+        <input type="color" id="col" name="col" value="#1a2744">
+
+        <br><br>
+
+        <label for="vol">Range</label><br>
+        <input type="range" id="vol" name="vol" min="0" max="10">
+
+        <br><br>
+
+        <label for="cv">File</label><br>
+        <input type="file" id="cv" name="cv">
+
+        <br><br>
+
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </fieldset>
     </form>
+
+    <br>
+
+    <!-- Task 6 Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Job</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>index.html</td>
+          <td>Structure</td>
+        </tr>
+        <tr>
+          <td>styles.css</td>
+          <td>Look</td>
+        </tr>
+      </tbody>
+    </table>
   </section>
 
   <section id="three">
+    <h2>Shapes</h2>
+    <div class="circle"></div>
+    <div class="square"></div>
   </section>
 
   <footer id="contact">
