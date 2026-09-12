@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+]<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -57,10 +57,26 @@
       <input type="radio" id="islamabad" name="campus" value="islamabad">
       <label for="islamabad">Islamabad</label>
 
-      <!-- Task 4 Additions -->
       <br>
       <label for="bio">Bio</label>
       <textarea id="bio" name="bio" rows="3"></textarea>
+
+      <!-- Task 5 Additions -->
+      <br>
+      <label for="day">Day</label>
+      <select id="day" name="day">
+        <option value="mon">Monday</option>
+        <option value="tue">Tuesday</option>
+        <option value="wed">Wednesday</option>
+      </select>
+
+      <br>
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" list="cities">
+      <datalist id="cities">
+        <option value="Kharian"></option>
+        <option value="Gujrat"></option>
+      </datalist>
     </form>
   </section>
 
