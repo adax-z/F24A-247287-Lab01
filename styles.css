@@ -1,40 +1,48 @@
+/* Task 7 */
 .circle {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   background: #4a90d9;
 }
-/* Task 9 */
+
+/* Task 8 & Task 10 */
 .square {
   width: 80px;
   height: 80px;
   background: red;
-  transition: transform 0.3s; /* Task 10 */
+  transition: transform 0.3s;
 }
-/* Task 10 */
+
+/* Task 9 */
 .square:hover {
   transform: translateX(60px);
 }
+
 /* Task 12 */
 header, footer {
   background: #1a2744;
   color: #fff;
   padding: 1rem;
 }
-/* Updated nav rule for task 13 */
+
+/* Task 12 & Task 13 */
 nav {
   background: #eee;
   padding: 1rem;
   display: flex;
   gap: 1rem;
 }
-/* Task 14 Additions */
+
+/* Task 14 */
 nav a {
   color: #1a2744;
 }
+
 nav a:hover {
   color: #c45c26;
 }
+
 #three {
   background: #fff8e7;
 }
