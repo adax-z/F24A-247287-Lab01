@@ -4,14 +4,25 @@
   border-radius: 50%;
   background: #4a90d9;
 }
-
+/* Task 9 */
 .square {
   width: 80px;
   height: 80px;
   background: red;
   transition: transform 0.3s; /* Task 10 */
 }
-
+/* Task 10 */
 .square:hover {
   transform: translateX(60px);
+}
+/* Task 12 */
+header, footer {
+  background: #1a2744;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav {
+  background: #eee;
+  padding: 1rem;
 }
