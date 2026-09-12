@@ -10,3 +10,8 @@
   height: 80px;
   background: red;
 }
+
+/* Task 9 */
+.square:hover {
+  transform: translateX(60px);
+}
